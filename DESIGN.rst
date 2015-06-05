@@ -115,7 +115,7 @@ Resource Types
         - Alice marks the transferrequest as completed  ( POST
           /api/transferRequest/723/approve/ )  # This is an extra action,
           because it has other effects like modifying a Thing
-            - or Alice doesn't want to give up, so she rejects it ( POST
+            - or Alice doesn't want to give up, so she denies it ( POST
               /api/transferRequest/723/deny/ )
     - properties
         - thing (FK to Thing)
